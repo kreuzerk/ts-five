@@ -1,0 +1,25 @@
+{
+  "name": "ts-five",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-and-run-basic": "tsc basic-decorator/index.ts && node basic-decorator/index.js",
+    "build-and-run-bound-example": "tsc bound-example/index.ts && node bound-example/index.js",
+    "build-and-run-bound-manipulate-example": "tsc bound-manipulate-example/index.ts && node bound-manipulate-example/index.js",
+    "build-and-run-decorator-factory": "tsc decorator-factory/index.ts && node decorator-factory/index.js",
+    "build-and-run-well-typed-decorator": "tsc well-typed-decorator/index.ts && node well-typed-decorator/index.js",
+    "build-and-run-intercept-decorator": "tsc intercept-decorator/index.ts && node intercept-decorator/index.js",
+    "build-and-run-intercept-decorator-factory": "tsc intercept-decorator-factory/index.ts && node intercept-decorator-factory/index.js",
+    "build-and-run-field-decorator": "tsc field-decorator/index.ts && node field-decorator/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.0-beta"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
